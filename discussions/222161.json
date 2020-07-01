@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "475375",
+    "ThreadId": "222161",
+    "Html": "<p>hi i am trying to set&nbsp;deliveryMethod=SpecifiedPickupDirectory to send email .</p>\r\n<p>but application is not working with the setting.</p>\r\n<p>does it need any extra configuration?</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks</p>\r\n<p>Pragnesh</p>",
+    "PostedDate": "2010-08-02T03:07:23.397-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "491968",
+    "ThreadId": "222161",
+    "Html": "<p>Hi Pragnesh</p>\r\n<p>Smtp4dev does not currently support picking up mail from a directory. This has been suggested in the past and I may consider adding it in the future. Any other users reading this who want to vote for this feature please reply to this thread to let me know and I will be more likely to look at it.</p>\r\n<p>Thanks<br>Rob</p>",
+    "PostedDate": "2010-09-10T13:36:03.54-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "712624",
+    "ThreadId": "222161",
+    "Html": "<p>I think it will be a good addition.</p>\r\n<p>Actually I think it is an important requirement but I don't understand why no one has voted for it yet.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks</p>\r\n<p>Ali</p>",
+    "PostedDate": "2011-12-15T03:23:38.473-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

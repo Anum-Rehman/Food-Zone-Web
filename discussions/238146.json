@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "534883",
+    "ThreadId": "238146",
+    "Html": "\r\n<p>1.Can anyone tell me is it possible to set the ip address programmatically in SMTP4DEV.?</p>\r\n<p>2.the mail sent using SMTP4DEV ,it will take time to reach outlook inbox,some time m not bale to see,i have downloaded and installed and m using&nbsp; SmtpClient.Send(message),to send mail,which is going with out any error,but m not able to see in outlook\r\n inbox. I am using Winodws 7.</p>\r\n",
+    "PostedDate": "2010-12-13T02:17:50.427-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645354",
+    "ThreadId": "238146",
+    "Html": "<p>1. No</p>\r\n<p>2. The whole point is that smtp4dev does not actually&nbsp;forward the email it receives, so it's correct that you don't see it in your outlook inbox.</p>",
+    "PostedDate": "2011-07-20T22:55:45.903-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "638360",
+    "ThreadId": "264163",
+    "Html": "\r\n<p>When I test messages with attachments - I noticed they show but only 95 bytes and attached picture won't preview? I wasn't sure if it was my code or smtp4dev does indeed shrink messages like this?</p>\r\n",
+    "PostedDate": "2011-07-06T13:30:21.633-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645346",
+    "ThreadId": "264163",
+    "Html": "<p>No, it doesn't do this intentionally.</p>",
+    "PostedDate": "2011-07-20T22:49:02.98-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

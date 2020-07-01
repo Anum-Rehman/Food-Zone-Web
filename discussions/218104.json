@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "462488",
+    "ThreadId": "218104",
+    "Html": "<p>Hi,</p>\r\n<p>Firstly this app is brilliant. It perfect for testing emails. We do a lot of bulk emails though so it would be nice to have some way of searching for an email. At least by Address or subject. If possible maybe even the body of the message.</p>\r\n<p>Keep up the good work :)</p>",
+    "PostedDate": "2010-07-01T23:11:23.167-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "491975",
+    "ThreadId": "218104",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/workitem/5576\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2010-09-10T13:42:11.34-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

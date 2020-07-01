@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "629990",
+    "ThreadId": "261992",
+    "Html": "<p>Hello,</p>\n<p>Does anyone know any setting that allow all received messages to be automatically save as file ?</p>\n<p>Many Thanks.</p>\n<p>Regards Dat.</p>",
+    "PostedDate": "2011-06-20T03:26:47.287-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "630344",
+    "ThreadId": "261992",
+    "Html": "<p>I've notice that the AutoViewMessage is saved as eml is it possible to amend this to save as msg so that it open in outlook ?</p>\r\n<p>Thanks.</p>",
+    "PostedDate": "2011-06-20T20:50:30.47-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645352",
+    "ThreadId": "261992",
+    "Html": "<p>See this link for details of setting up outlook to open .eml files:<br /><a href=\"http://www.msoutlook.info/question/354\">http://www.msoutlook.info/question/354</a></p>",
+    "PostedDate": "2011-07-20T22:53:43.44-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

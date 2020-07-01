@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "849733",
+    "ThreadId": "359810",
+    "Html": "\r\n<p>Trying to determine if an app on our network that generates emails is getting to the smtp server that I activated and configured on an SBS 2011 Essentials server (Exchange not part of this server). And then if the SMTP server is relaying those emails to\r\n Google Apps email servers.</p>\r\n<p>Downloaded and installed the SMTP4Dev app and it is running on the SBS server, configured to be listening on Port 25 which is what the app is using to send emails to this server. At the bottom of the SMTP4Dev screen, it says\r\n<strong>&quot;Server Failed: only one usage of each socket address (protocol/network address/ port) is normally permitted.&quot;\r\n</strong></p>\r\n<p>Could someone point me in the correct direction to fix this issue or tell me if this app is not what I need to achieve this goal?</p>\r\n<p>Many thanks,</p>\r\n<p>Bill (not a developer, just trying to solve an issue).</p>\r\n",
+    "PostedDate": "2012-06-15T17:30:56.547-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "851909",
+    "ThreadId": "359810",
+    "Html": "\r\n<p>I search in google about this exception message. I found something about regedit.&nbsp;<a href=\"http://blogs.msdn.com/b/dgorti/archive/2005/09/18/470766.aspx\">http://blogs.msdn.com/b/dgorti/archive/2005/09/18/470766.aspx</a></p>\r\n<p>I tried SMTP4Dev on&nbsp;Server 2008 R2 (VM SharePoint host), it failed with the same message. However, it work fine in Windows 7.</p>\r\n<p>And I then try it on my VM Active Directory with DNS, it work straight away. I think you may try to install it in AD or DNS server.</p>\r\n",
+    "PostedDate": "2012-06-20T21:53:00.04-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "852228",
+    "ThreadId": "359810",
+    "Html": "<p>Thanks Klkkeio - I was finally able to get the app to communicate with the SMTP server. It was a configuration issue on the app, in particular, the username and password. I gave up on trying to troubleshoot the \"Server Failed\" issue with SMTP4Dev but I do appreciate your post.</p>",
+    "PostedDate": "2012-06-21T10:12:21.68-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

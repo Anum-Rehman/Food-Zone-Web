@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1249947",
+    "ThreadId": "546680",
+    "Html": "Hi,\r<br />\nwe'd like to use smt4dev for our Staging. But it seems it has no web-interface (only Windows-app interface). This makes only usable for local development environment (because RDPing to staging every time is a bad option for us).\r<br />\nWe'd like to use it on staging and setup a separate web-app to see which emails have been sent by our Staging.\r<br />\nSimple ASP.NET app would be sufficient.\r<br />\nThanks.<br />\n",
+    "PostedDate": "2014-05-27T04:02:24.903-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

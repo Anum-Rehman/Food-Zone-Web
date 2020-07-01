@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "508171",
+    "ThreadId": "231124",
+    "Html": "<p>Hi to all!</p>\r\n<p>I installed smtp4dev on Windows Vista and Windows 7, &nbsp;it shows the messages in the list, but I can't view the message body to check the contents...</p>\r\n<p>Many thanks for your help!</p>",
+    "PostedDate": "2010-10-16T02:03:42.287-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645357",
+    "ThreadId": "231124",
+    "Html": "<p>Can you let us know what problem you are having with viewing the message body.</p>\r\n<p>What do you click, and what happens when you do?</p>",
+    "PostedDate": "2011-07-20T23:01:23.057-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

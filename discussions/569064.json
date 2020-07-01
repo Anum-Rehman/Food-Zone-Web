@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1310571",
+    "ThreadId": "569064",
+    "Html": "I run the Smtp4dev.exe in my pc, and after that I try to enter my localhost,\r<br />\nI arrived to 404 error,\r<br />\nand when I checked my IIS, I saw it;s stopped, \r<br />\nbut when I click the play button I got an error that some program is using the file..\r<br />\n<br />\nhow can I release the file so I can run my localhost? \r<br />\nthanks<br />\n",
+    "PostedDate": "2014-10-05T06:25:56.387-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

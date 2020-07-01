@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "799378",
+    "ThreadId": "344705",
+    "Html": "\r\n<p>Hi guys,</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Anybody seen this problem before? I am turning on SSL/TLS encryption on a Multifunction printer to do some testing but as soon as the e-mail transferes to the PC smtp4dev crashes\r\n and needs to be closed.</p>\r\n<p>Thanks a bunch.</p>\r\n<p>Luc</p>\r\n",
+    "PostedDate": "2012-02-24T05:52:24.63-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "799389",
+    "ThreadId": "344705",
+    "Html": "<p>Luc</p>\r\n<p>I believe this&nbsp;is an issue with the configuration dialog. You shouldn't be able to enable \"Implict SSL/TLS\" without first specifying a SSL certificate. The crash is causes by smtp4dev trying to establish an SSL session without having a configured SSL certificate.</p>\r\n<p>If you want to use SSL you need to provide a SSL certificate that your SMTP client will trust - just configure that in the options screen and the crash should stop happening.</p>\r\n<p>I'm opening a work item to fix this properly.</p>",
+    "PostedDate": "2012-02-24T06:19:19.107-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "799391",
+    "ThreadId": "344705",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/workitem/7759\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2012-02-24T06:20:42.147-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "799392",
+    "ThreadId": "344705",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/workitem/7760\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2012-02-24T06:20:46.633-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "799393",
+    "ThreadId": "344705",
+    "Html": "<p>This also affects the STARTTLS option.</p>",
+    "PostedDate": "2012-02-24T06:21:21.257-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "799424",
+    "ThreadId": "344705",
+    "Html": "<p>Thanks for the quick answer. I actually got it to work perfectly now. I just exported a certificate from my Internet Explorer web browser and tied it to the application. Crashes are a thing of the past.</p>\r\n<p>Cheers!</p>\r\n<p>Luc</p>",
+    "PostedDate": "2012-02-24T07:30:16.11-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1421369",
+    "ThreadId": "344705",
+    "Html": "For anyone else having the issue, I managed to solve it by specifically:<br />\n<ol>\n<li>Opening my local IIS manager and navigating to &quot;Server Certificates&quot;</li>\n<li>Right clicking on the localhost certificate (IIS Express Development Certificate) and clicking &quot;View&quot;</li>\n<li>Clicking &quot;Details&quot; and &quot;Copy to File...&quot;</li>\n<li>Exporting the certificate as a .cer file without the private key</li>\n<li>Pointing smtp4dev to the .cer file in the Server options</li>\n</ol>\n",
+    "PostedDate": "2015-04-29T06:18:07.923-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

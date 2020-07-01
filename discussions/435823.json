@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1012053",
+    "ThreadId": "435823",
+    "Html": "Will SMTP4Dev work on Windows 8 machines? <br />\n\r<br />\nJust wondering because the Download description doesn't say anything about Windows 8.  I did download it and it seems to come up fine.  But when I run the program that my buddy runs on his Windows 7 machine, his works but mine doesn't.  Not sure if it's something on Windows 8 that is blocking access or if SMTP4dev doesn't work.  I get the following exception:\r<br />\n<br />\njavax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;\r<br />\n  nested exception is:\r<br />\njava.net.ConnectException: connect: Address is invalid on local machine, or port is not valid on remote machine<br />\n",
+    "PostedDate": "2013-03-07T14:35:35.207-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1020298",
+    "ThreadId": "435823",
+    "Html": "Hi,\r<br />\n<br />\nI've just installed it on Windows 8, and it seems to be working fine as I'm getting emails, check the &quot;Options&quot; --&gt; &quot;Server&quot; tab what is the &quot;Listen interface&quot;, and verify what you have on your solution configuration, in my case I'm using IP 127.0.0.1<br />\n",
+    "PostedDate": "2013-03-24T08:02:24.19-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

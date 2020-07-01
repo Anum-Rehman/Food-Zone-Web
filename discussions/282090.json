@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "708603",
+    "ThreadId": "282090",
+    "Html": "\r\n<p>Hi,</p>\r\n<p>I had created a issue tracker: <a href=\"http://smtp4dev.codeplex.com/workitem/7515\">\r\nhttp://smtp4dev.codeplex.com/workitem/7515</a></p>\r\n<p>But that has evoked no reposnose, so posting in Discussions .... please excuse the spam.</p>\r\n<p>I am using smtp4dev on a Windows 7/ XP OS.</p>\r\n<p>Is the user required to have admin privileges ?&nbsp;I think not, but</p>\r\n<p style=\"padding-left:30px\">1. It works fine on my machine (where I full admin privileges)&nbsp;</p>\r\n<p style=\"padding-left:30px\">2. It launches (can see the pop windiow and icon in system tray), but send mail to localhost:25 does not work (even a telnet localhost 25) does not work.</p>\r\n<p>please help diagnose.</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2011-12-06T23:28:33.86-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

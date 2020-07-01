@@ -1,0 +1,42 @@
+[
+  {
+    "Id": "286894",
+    "ThreadId": "83439",
+    "Html": "<p>I cannot get my local PHP app to send email to SMTP4DEV, so I am trying to see if SMTP4DEV works using telnet.&nbsp;</p>\r\n<p>As soon as I issue a &quot;HELO&quot; statement it crashes.&nbsp; If I send a &quot;RCPT TO: (address)&quot; it tells me, &quot;501 Must specify to address &lt;address&gt;&quot; no matter what email address I give it.</p>\r\n<p>Is this a problem with Windows 7?&nbsp; I have even tried running it in Windows XP compatibility mode.</p>\r\n<p>Thanks.</p>",
+    "PostedDate": "2010-02-07T14:42:31.927-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "287034",
+    "ThreadId": "83439",
+    "Html": "<p>Nope, it works just fine in Wndows 7 here.</p>\r\n<p>Hope that helps track down your issue.</p>\r\n<p>Tim</p>",
+    "PostedDate": "2010-02-08T00:56:00.953-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "287115",
+    "ThreadId": "83439",
+    "Html": "<blockquote style=\"border:solid .1em #ccc;font-style:italic;margin:.25em 1em 0 1em;padding:0 .25em 0 .25em\"><strong>tomsimon wrote:</strong><br>\r\n<p>I cannot get my local PHP app to send email to SMTP4DEV, so I am trying to see if SMTP4DEV works using telnet.&nbsp;</p>\r\n<p>As soon as I issue a &quot;HELO&quot; statement it crashes.&nbsp; If I send a &quot;RCPT TO: (address)&quot; it tells me, &quot;501 Must specify to address &lt;address&gt;&quot; no matter what email address I give it.</p>\r\n<p>Is this a problem with Windows 7?&nbsp; I have even tried running it in Windows XP compatibility mode.</p>\r\n<p>Thanks.</p>\r\n</blockquote>\r\n<p>Hi</p>\r\n<p>Thanks for reporting this issue.<br>Please can you post the session log (&quot;sessions&quot; tab then click &quot;view log&quot;).</p>\r\n<p>Thanks<br>Rob</p>",
+    "PostedDate": "2010-02-08T05:22:16.22-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "440069",
+    "ThreadId": "83439",
+    "Html": "<p>See <a href=\"http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=3702\">http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=3702</a></p>",
+    "PostedDate": "2010-05-06T14:01:39.39-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "671869",
+    "ThreadId": "83439",
+    "Html": "<p>I see what tomsimon saw in Windows 7.</p>\n<p>I fixed it by updating my local test website to enclose the RCPT TO address in angle brackets.</p>",
+    "PostedDate": "2011-09-14T12:14:17.617-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

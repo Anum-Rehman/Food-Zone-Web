@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1356068",
+    "ThreadId": "581935",
+    "Html": "I've been happily using this app for years, but recently I started getting a BadImageFormatException when I try to start it. &quot;Could not load file or assembly 'zip' ... The module was expected to contain an assembly manifest. ... Using .NET Runtime 2.0.50727.5485, Created with .NET Runtime 2.0.50727.4927&quot;.\r<br />\n<br />\nI'm on Win7 64 bit, and I haven't made any changes to my system that I'm aware of, other than Microsoft updates. <br />\n",
+    "PostedDate": "2015-02-26T10:45:12.477-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1356128",
+    "ThreadId": "581935",
+    "Html": "Interestingly, this only happens when the exe is in c:\\bin, which is where I keep all of my tools that don't need to be installed. It was working fine there until recently, and now I get the error noted above. If I move the exe to any other dir (including something right under c:\\, like c:\\foo), it works fine. <br />\n",
+    "PostedDate": "2015-02-26T13:45:30.983-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

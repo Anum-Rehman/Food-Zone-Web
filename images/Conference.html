@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost/conference/index.php -->
+<html lang="zxx" class="no-js" style="display: block;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="http://localhost/conference/img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="codepixer">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	
+	<!-- Site Title -->
+	<title>Conference</title>
+
+	<link href="./Conference_files/css" rel="stylesheet">
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="./Conference_files/linearicons.css">
+	<link rel="stylesheet" href="./Conference_files/font-awesome.min.css">
+	<link rel="stylesheet" href="./Conference_files/bootstrap.css">
+	<link rel="stylesheet" href="./Conference_files/magnific-popup.css">
+	<link rel="stylesheet" href="./Conference_files/nice-select.css">
+	<link rel="stylesheet" href="./Conference_files/animate.min.css">
+	<link rel="stylesheet" href="./Conference_files/owl.carousel.css">
+	<link rel="stylesheet" href="./Conference_files/main.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="./Conference_files/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="./Conference_files/jquery.min.js.download"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="./Conference_files/bootstrap.min.js.download"></script>
+<script type="text/javascript" charset="UTF-8" src="./Conference_files/common.js.download"></script><script type="text/javascript" charset="UTF-8" src="./Conference_files/util.js.download"></script></head>
+
+<body style="display: block;"><button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>
+
+	<header id="header">
+		<div class="container">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo" class="col-sm-3">
+					<a href="http://localhost/conference/index.html"><img src="./Conference_files/logo.png" alt="" title="" style="height: 30%; width: 100%; "></a>
+				</div>
+				<nav id="nav-menu-container" class="col-sm-9">
+					<ul class="nav-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
+						<li class="menu-active"><a href="http://localhost/conference/index.php#home" class="links">Home</a></li>
+						<li><a href="http://localhost/conference/index.php#videos" class="links">Videos</a></li>
+						<li><a href="http://localhost/conference/index.php#speakers" class="links">Speakers</a></li>
+						<li><a href="http://localhost/conference/index.php#schedule" class="links">Schedule</a></li>
+						<li class="menu-has-children"><a href="http://localhost/conference/index.php" class="links sf-with-ul">Pages</a>
+							<ul style="display: none;">
+								<li><a href="http://localhost/conference/generic.html">Generic</a></li>
+								<li><a href="http://localhost/conference/elements.html">Elements</a></li>
+							</ul>
+						</li>
+						<li><a href="http://localhost/conference/sign_up.php" class="links"><span class="glyphicon glyphicon-user links"></span>
+								Sign Up</a></li>
+						<li><a href="http://localhost/conference/index.php#" class="links" data-toggle="modal" data-target="#myModal" name="login"><span class="glyphicon glyphicon-log-in links"></span>
+								</a></li>
+						<li><button type="button" class="ticker-btn" id="button" data-toggle="modal" data-target="#myModal">organize
+								Event</button></li>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+			</div>
+		</div>
+	</header><!-- #header -->
+
+	<!-- Popup Signin -->
+	<div class="container">
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header" style="padding:35px 50px; background-color:#8a1a81!important;">
+						<h4 style="background-color:#8a1a81; font-family: &#39;Times New Roman&#39;, Times, serif;"><span class="glyphicon glyphicon-lock"></span><b>Login</b></h4>
+						<button type="button" class="close" data-dismiss="modal">×</button>
+					</div>
+					<div class="modal-body" style="padding:40px 50px;">
+						<form role="form" method="POST" action="http://localhost/conference/index.php" name="signin_form">
+							<div class="form-group">
+								<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+								<input type="text" class="form-control" id="usrname" placeholder="Enter email" name="email" required="">
+							</div>
+							<div class="form-group">
+								<label for="pswrd"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+								<input type="password" class="form-control" id="pswrd" name="password" required="">
+							</div>
+							<div class="checkbox">
+								<label><input type="checkbox" value="" checked="">Remember me</label>
+							</div>
+							<button type="submit" class="btn btn-success btn-block" style="background-color:#8a1a81; font-family: &#39;Times New Roman&#39;, Times, serif;"><span class="glyphicon glyphicon-off"></span>Login</button>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>
+							Cancel</button>
+						<p>Not a member? <a href="http://localhost/conference/index.php#" class="close-modal" data-toggle="modal" data-target="#signup-Modal" data-dismiss="modal">Sign
+								Up</a></p>
+						<p>Forgot <a href="http://localhost/conference/index.php#">Password?</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- start banner Area -->
+	<section class="banner-area relative" id="home" style="background: url(&quot;img/slide/5.png&quot;) 0% 0% / cover;">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row fullscreen d-flex align-items-center justify-content-center" style="height: 626px;">
+				<div class="banner-content col-lg-9 col-md-12">
+					<h6 id="banner-caption">Now you can watch the Talent</h6>
+					<h1 class="text-white" id="banner-main">
+						Year End Conference
+					</h1>
+					<div class="countdown">
+						<div id="timer" class="text-white"><div class="start-in">start in:</div>244<span>days  </span>: 2<span>hour</span>: 18<span>mins  </span>: 3<span>secs  </span></div>
+					</div>
+					<h4 id="banner-date"><span class="lnr lnr-calendar-full"></span> 05th - 09th february, 2018</h4>
+					<h4 id="banner-venue"><span class="lnr lnr-map"></span> 56/8, Dhanmondi, Dhaka - 1205</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+	<!-- banner -->
+	<div class="container">
+
+		<div class="events-listing spacer"> <a href="http://localhost/conference/index.php#" class="pull-right viewall">View All Listing</a>
+			<h2>UPCOMING EVENTS</h2>
+			<div id="owl-example" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+
+				<div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 5100px; left: 0px; display: block; transition: all 500ms ease 0s; transform: translate3d(-255px, 0px, 0px);"><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/1.png" class="img-responsive" alt="events">
+					</div>
+
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/2.png" class="img-responsive" alt="events">
+					</div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/3.png" class="img-responsive" alt="events"></div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/4.png" class="img-responsive" alt="events"></div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/5.png" class="img-responsive" alt="events">
+					</div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/1.png" class="img-responsive" alt="events">
+					</div>
+
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/2.png" class="img-responsive" alt="events">
+					</div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/3.png" class="img-responsive" alt="events"></div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/4.png" class="img-responsive" alt="events"></div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">4</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">3</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div><div class="owl-item" style="width: 255px;"><div class="events">
+					<div class="image-holder"><img src="./Conference_files/5.png" class="img-responsive" alt="events">
+					</div>
+					<h4><a href="http://localhost/conference/index.php#">Conference</a></h4>
+					<a href="http://localhost/conference/index.php#">
+						<p class="book">Event Registration</p>
+					</a>
+					<div class="listing-detail"><span data-toggle="tooltip" data-placement="bottom" data-original-title="Bed Room">5</span>
+						<span data-toggle="tooltip" data-placement="bottom" data-original-title="Living Room">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Parking">2</span> <span data-toggle="tooltip" data-placement="bottom" data-original-title="Kitchen">1</span> </div>
+					<a class="btn btn-primary" href="http://localhost/conference/index.php#">View Details</a>
+				</div></div></div></div>
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				
+
+
+			<div class="owl-controls clickable"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div><div class="owl-page"><span class=""></span></div></div></div></div>
+
+		</div>
+		<!-- team -->
+		<section class="who-section gray-section" id="who">
+			<div class="container">
+				<h2 class="m-b-20"><strong>SPEAKERS</strong></h2>
+				<h5 class="regular m-b-140">MOST POPULAR SPEAKERS OF PAKISTAN</h5>
+
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="box">
+							<div class="img-wrap" style="background-image:url(&#39;img/speakers/Qasim-Ali-Shah.jpg&#39;);">
+
+								<div class="overlay">
+
+									<a href="https://www.facebook.com/Qasim.Ali.Shah/" class="facebook-link" target="_blank"><span class="fa fa-facebook"></span></a>
+									<a href="https://twitter.com/qasimalishah_" class="twitter-link" target="_blank"><span class="fa fa-twitter"></span></a>
+
+								</div>
+
+							</div>
+							<h3 class="bold">Qasim Ali Shah</h3>
+							<h5 style="text-align:center">Qasim Ali Shah is a famous trainer, speaker and motivator.<br>You can listen and
+								learn from his life changing video lectures.</h5>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="box">
+							<div class="img-wrap" style="background-image:url(&#39;img/speakers/hammad.jpg&#39;);">
+
+								<div class="overlay">
+
+									<a href="https://www.facebook.com/hammadsafi585/" class="facebook-link" target="_blank"><span class="fa fa-facebook"></span></a>
+									<a href="https://twitter.com/hammadsafi3" class="twitter-link" target="_blank"><span class="fa fa-twitter"></span></a>
+
+								</div>
+
+							</div>
+							<h3 class="bold">Hammad Safi</h3>
+							<h5>Hammad Safi, Youngest Motivational Speaker, Freelancer, TV Anchor and Lecturer at<br>University of Peshawar</h5>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="box">
+							<div class="img-wrap" style="background-image:url(&#39;img/speakers/kevin.png&#39;);">
+
+								<div class="overlay">
+
+									<a href="https://www.facebook.com/kevinabdulrahmanofficial" class="facebook-link" target="_blank"><span class="fa fa-facebook"></span></a>
+									<a href="https://twitter.com/kevabdulrahman" class="twitter-link" target="_blank"><span class="fa fa-twitter"></span></a>
+
+								</div>
+
+							</div>
+							<h3 class="bold">Kevin Abdul Rahman</h3>
+							<h5>Kevin Abdulrahman is an internationally renowned business, leadership and motivational speaker.</h5>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="box">
+							<div class="img-wrap" style="background-image:url(&#39;img/speakers/muniba-mazari.jpg&#39;);">
+
+								<div class="overlay">
+
+									<a href="https://www.facebook.com/Muniba.Canvas/" class="facebook-link" target="_blank"><span class="fa fa-facebook"></span></a>
+									<a href="https://twitter.com/muniba_mazari" class="twitter-link" target="_blank"><span class="fa fa-twitter"></span></a>
+
+								</div>
+
+							</div>
+							<h3 class="bold">Muniba Mazari</h3>
+							<h5>Muniba Mazari is an Artist, Motivational Speaker, Activist, TV Host, and Pakistan's First Goodwill
+								Ambassador to UNWomen Pakistan.</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Start schedule Area -->
+		<section class="schedule-area pb-100" id="schedule">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-70 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">How Our Customers Treat Us</h1>
+							<p>Who are in extremely love with eco friendly system.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="table-wrap col-lg-12">
+						<table class="schdule-table table table-bordered">
+							<thead class="thead-light">
+								<tr>
+									<th class="head" scope="col">sl</th>
+									<th class="head" scope="col">session</th>
+									<th class="head" scope="col">speaker</th>
+									<th class="head" scope="col">vanue</th>
+									<th class="head" scope="col">time</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th class="name" scope="row">01</th>
+									<td>Reception &amp; Taling Seats</td>
+									<td>Isabelle Cooper</td>
+									<td>3rd Hall Room</td>
+									<td>02.00</td>
+								</tr>
+								<tr>
+									<th class="name" scope="row">02</th>
+									<td>Breakfast and rest</td>
+									<td>N/A</td>
+									<td>4th Hall Room</td>
+									<td>02.00</td>
+								</tr>
+								<tr>
+									<th class="name" scope="row">03</th>
+									<td>Reception &amp; Taling Seats</td>
+									<td>Jane Daniel</td>
+									<td>2nd Hall Room</td>
+									<td>02.00</td>
+								</tr>
+								<tr>
+									<th class="name" scope="row">04</th>
+									<td>Next generation speech</td>
+									<td>Billy Barton</td>
+									<td>1st Hall Room</td>
+									<td>02.00</td>
+								</tr>
+								<tr>
+									<th class="name" scope="row">05</th>
+									<td>Sppech for young people</td>
+									<td>Flora Gonzales</td>
+									<td>4rd Hall Room</td>
+									<td>02.00</td>
+								</tr>
+								<tr>
+									<th class="name" scope="row">06</th>
+									<td>Lunch Break</td>
+									<td>N/A</td>
+									<td>3rd Hall Room</td>
+									<td>02.00</td>
+								</tr>
+								<tr>
+									<th class="name" scope="row">07</th>
+									<td>Sppech for Middle aged people</td>
+									<td>Francisco Barrett</td>
+									<td>1st Hall Room</td>
+									<td>02.00</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End schedule Area -->
+
+		<!-- Start price Area -->
+		<section class="price-area section-gap">
+			<div class="container-fluid">
+				<div class="row d-flex justify-content-center">
+					<div class="menu-content pb-70 col-lg-8">
+						<div class="title text-center">
+							<h1 class="mb-10">How Our Customers Treat Us</h1>
+							<p>Who are in extremely love with eco friendly system.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-6 single-price">
+						<div class="top-part">
+							<h1 class="package-no">01</h1>
+							<h4>Economy</h4>
+							<p>For the individuals</p>
+						</div>
+						<div class="package-list">
+							<ul>
+								<li>Secure Online Transfer</li>
+								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+							</ul>
+						</div>
+						<div class="bottom-part">
+							<h1>£199.00</h1>
+							<a class="price-btn text-uppercase" href="http://localhost/conference/index.php#">Buy Now</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 single-price">
+						<div class="top-part">
+							<h1 class="package-no">02</h1>
+							<h4>Business</h4>
+							<p>For the individuals</p>
+						</div>
+						<div class="package-list">
+							<ul>
+								<li>Secure Online Transfer</li>
+								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+							</ul>
+						</div>
+						<div class="bottom-part">
+							<h1>£199.00</h1>
+							<a class="price-btn text-uppercase" href="http://localhost/conference/index.php#">Buy Now</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 single-price">
+						<div class="top-part">
+							<h1 class="package-no">03</h1>
+							<h4>Premium</h4>
+							<p>For the individuals</p>
+						</div>
+						<div class="package-list">
+							<ul>
+								<li>Secure Online Transfer</li>
+								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+							</ul>
+						</div>
+						<div class="bottom-part">
+							<h1>£199.00</h1>
+							<a class="price-btn text-uppercase" href="http://localhost/conference/index.php#">Buy Now</a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 single-price">
+						<div class="top-part">
+							<h1 class="package-no">04</h1>
+							<h4>Exclusive</h4>
+							<p>For the individuals</p>
+						</div>
+						<div class="package-list">
+							<ul>
+								<li>Secure Online Transfer</li>
+								<li>Unlimited Styles for interface</li>
+								<li>Reliable Customer Service</li>
+							</ul>
+						</div>
+						<div class="bottom-part">
+							<h1>£199.00</h1>
+							<a class="price-btn text-uppercase" href="http://localhost/conference/index.php#">Buy Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End price Area -->
+
+		<!-- gallery -->
+		<center>
+			<div id="gallery" class="gallery">
+				<div class="container">
+					<h1 class="w3ls-tittle">Gallery</h1>
+					<div class="gallery-wthreegrids">
+						<!-- EIGHTH EXAMPLE -->
+						<div class="view view-eighth">
+							<a href="./Conference_files/1.jpg" title="Image Title"><img src="./Conference_files/1.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/2.jpg" title="Image Title"><img src="./Conference_files/2.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/3.jpg" title="Image Title"><img src="./Conference_files/3.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/4.jpg" title="Image Title"><img src="./Conference_files/4.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/5.jpg" title="Image Title"><img src="./Conference_files/5.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/6.jpeg" title="Image Title"><img src="./Conference_files/6.jpeg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/7.jpg" title="Image Title"><img src="./Conference_files/7.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/8.jpg" title="Image Title"><img src="./Conference_files/8.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="view view-eighth">
+							<a href="./Conference_files/9.jpg" title="Image Title"><img src="./Conference_files/9.jpg" alt="">
+								<div class="w3lmask">
+									<h4> Event Planner </h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales, leo vitae facilisis facilisis
+										tristiq elit mauris posuere.</p>
+								</div>
+							</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<!-- light-box-files -->
+					<script src="./Conference_files/jquery.chocolat.js.download"></script>
+					<script type="text/javascript">
+						$(function () {
+							$(".gallery a").Chocolat();
+						});
+					</script>
+				</div>
+			</div>
+		</center>
+		<!-- //gallery -->
+
+
+		<!-- Start brand Area -->
+		<section class="brand-area section-gap">
+			<div class="container">
+				<div class="row logo-wrap">
+					<a class="col single-img" href="http://localhost/conference/index.php#">
+						<img class="d-block mx-auto" src="./Conference_files/l2.png" alt="">
+					</a>
+					<a class="col single-img" href="http://localhost/conference/index.php#">
+						<img class="d-block mx-auto" src="./Conference_files/l3.png" alt="">
+					</a>
+					<a class="col single-img" href="http://localhost/conference/index.php#">
+						<img class="d-block mx-auto" src="./Conference_files/l4.png" alt="">
+					</a>
+					<a class="col single-img" href="http://localhost/conference/index.php#">
+						<img class="d-block mx-auto" src="./Conference_files/l5.png" alt="">
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- End brand Area -->
+
+
+		<!-- Start callaction Area -->
+		<section class="callaction-area relative section-gap">
+			<div class="overlay overlay-bg"></div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<h1 class="text-white">Huge Transaction in last Week</h1>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+						</p>
+						<a class="callaction-btn" href="http://localhost/conference/index.php#">Become a Member</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End callaction Area -->
+
+
+		<!-- start footer Area -->
+		<footer class="footer-area section-gap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h6>About Us</h6>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore
+								magna aliqua.
+							</p>
+							<p class="footer-text">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright ©
+								<script>document.write(new Date().getFullYear());</script>2019 All rights reserved | This template is made with <i class="icon-heart3" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-5  col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<h6>Newsletter</h6>
+							<p>Stay update with our latest</p>
+							<div class="" id="mc_embed_signup">
+								<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+									<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = &#39;&#39;" onblur="this.placeholder = &#39;Enter Email &#39;" =""="" type="email">
+									<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+									<div style="position: absolute; left: -5000px;">
+										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+									</div>
+
+									<div class="info"></div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+						<div class="single-footer-widget">
+							<h6>Follow Us</h6>
+							<p>Let us be social</p>
+							<div class="footer-social d-flex align-items-center">
+								<a href="http://localhost/conference/index.php#"><i class="fa fa-facebook"></i></a>
+								<a href="http://localhost/conference/index.php#"><i class="fa fa-twitter"></i></a>
+								<a href="http://localhost/conference/index.php#"><i class="fa fa-dribbble"></i></a>
+								<a href="http://localhost/conference/index.php#"><i class="fa fa-behance"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer Area -->
+
+		<script src="./Conference_files/jquery-2.2.4.min.js.download"></script>
+		<script src="./Conference_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="./Conference_files/bootstrap.min.js(1).download"></script>
+		<script type="text/javascript" src="./Conference_files/js"></script>
+		<script src="./Conference_files/easing.min.js.download"></script>
+		<script src="./Conference_files/hoverIntent.js.download"></script>
+		<script src="./Conference_files/superfish.min.js.download"></script>
+		<script src="./Conference_files/jquery.ajaxchimp.min.js.download"></script>
+		<script src="./Conference_files/jquery.magnific-popup.min.js.download"></script>
+		<script src="./Conference_files/owl.carousel.min.js.download"></script>
+		<script src="./Conference_files/jquery.sticky.js.download"></script>
+		<script src="./Conference_files/jquery.nice-select.min.js.download"></script>
+		<script src="./Conference_files/parallax.min.js.download"></script>
+		<script src="./Conference_files/mail-script.js.download"></script>
+		<script src="./Conference_files/main.js.download"></script>
+
+
+</div><nav id="mobile-nav" class="col-sm-9">
+					<ul class="" style="touch-action: pan-y;" id="">
+						<li class="menu-active"><a href="http://localhost/conference/index.php#home" class="links">Home</a></li>
+						<li><a href="http://localhost/conference/index.php#videos" class="links">Videos</a></li>
+						<li><a href="http://localhost/conference/index.php#speakers" class="links">Speakers</a></li>
+						<li><a href="http://localhost/conference/index.php#schedule" class="links">Schedule</a></li>
+						<li class="menu-has-children"><i class="lnr lnr-chevron-down"></i><a href="http://localhost/conference/index.php" class="links sf-with-ul">Pages</a>
+							<ul style="display: none;">
+								<li><a href="http://localhost/conference/generic.html">Generic</a></li>
+								<li><a href="http://localhost/conference/elements.html">Elements</a></li>
+							</ul>
+						</li>
+						<li><a href="http://localhost/conference/sign_up.php" class="links"><span class="glyphicon glyphicon-user links"></span>
+								Sign Up</a></li>
+						<li><a href="http://localhost/conference/index.php#" class="links" data-toggle="modal" data-target="#myModal" name="login"><span class="glyphicon glyphicon-log-in links"></span>
+								</a></li>
+						<li><button type="button" class="ticker-btn" id="button" data-toggle="modal" data-target="#myModal">organize
+								Event</button></li>
+					</ul>
+				</nav><div id="mobile-body-overly"></div></body></html>

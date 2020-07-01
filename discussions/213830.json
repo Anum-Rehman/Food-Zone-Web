@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "447324",
+    "ThreadId": "213830",
+    "Html": "Any one ever try to compile smtp4dev via Mono under Linux?\r\n\r\nEric",
+    "PostedDate": "2010-05-25T14:39:38.847-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "491981",
+    "ThreadId": "213830",
+    "Html": "<p>Smtp4dev will compile under Mono with the (WPF based)&nbsp;inspector form/feature removed however it crashes immediately upon launch with a strange exception before the debugger can even attach.<br>I've not looked further into this but would appreciate anybody who is interested&nbsp;working on this more as I'm sure this should be fixable.</p>\r\n<p>Thanks<br>Rob</p>",
+    "PostedDate": "2010-09-10T13:48:42.277-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

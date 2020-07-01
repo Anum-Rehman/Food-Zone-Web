@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "812481",
+    "ThreadId": "349176",
+    "Html": "\r\n<p>Hi all,</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; is there a way to reset the app to it's default settings or to make it forget about a certificate that was linked to it. I found that changing the location of the app will do that but is it possible to do it without\r\n chaging the location of the app.</p>\r\n<p>Thanks a lot!</p>\r\n<p>Luc</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2012-03-19T06:16:45.567-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "846573",
+    "ThreadId": "349176",
+    "Html": "<p>Hi guys,</p>\r\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Well, still wondering if SMTP4DEV creates a config file that it keeps somewhere esle than whwre it is installed and if yes, would it be possible to create a pre-configured version so that someone whi installs it on their PC do not have to play with the settings.</p>\r\n<p>&nbsp;</p>\r\n<p>Thanks again!</p>\r\n<p>&nbsp;</p>\r\n<p>Luc</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2012-06-08T06:31:22.82-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

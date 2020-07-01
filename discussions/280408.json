@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "701791",
+    "ThreadId": "280408",
+    "Html": "<p>Using Visual Studio 2010; .NET 4.0, Windows 7 Professional, w/Service Pack 1. [32-bit OS]</p>\n<p>I have the smtp set to localhost in the code with port 25.</p>\n<p>In the Options tab, I have the Domain Name set to localhost, the ListenInterface set to 127.0.0.1, and the Port Number set to 25.&nbsp;</p>\n<p>Also, there is no Session log being written.</p>\n<p>When my app tries to send an email I get following problem details:</p>\n<p>Description:<br /> &nbsp; Stopped working<br /> <br /> Problem signature:<br /> &nbsp; Problem Event Name:&nbsp;&nbsp;&nbsp; CLR20r3<br /> &nbsp; Problem Signature 01:&nbsp;&nbsp;&nbsp; smtp4dev.exe<br /> &nbsp; Problem Signature 02:&nbsp;&nbsp;&nbsp; 2.0.9.0<br /> &nbsp; Problem Signature 03:&nbsp;&nbsp;&nbsp; 4e443f86<br /> &nbsp; Problem Signature 04:&nbsp;&nbsp;&nbsp; System<br /> &nbsp; Problem Signature 05:&nbsp;&nbsp;&nbsp; 2.0.0.0<br /> &nbsp; Problem Signature 06:&nbsp;&nbsp;&nbsp; 4db90c9f<br /> &nbsp; Problem Signature 07:&nbsp;&nbsp;&nbsp; 2bf7<br /> &nbsp; Problem Signature 08:&nbsp;&nbsp;&nbsp; 85<br /> &nbsp; Problem Signature 09:&nbsp;&nbsp;&nbsp; System.ArgumentNullException<br /> &nbsp; OS Version:&nbsp;&nbsp;&nbsp; 6.1.7601.2.1.0.256.48<br /> &nbsp; Locale ID:&nbsp;&nbsp;&nbsp; 1033<br /> <br /> Read our privacy statement online:<br /> &nbsp; http://go.microsoft.com/fwlink/?linkid=104288&amp;clcid=0x0409<br /> <br /> If the online privacy statement is not available, please read our privacy statement offline:<br /> &nbsp; C:\\Windows\\system32\\en-US\\erofflps.txt</p>",
+    "PostedDate": "2011-11-22T07:09:05.003-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

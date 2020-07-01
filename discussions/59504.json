@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "201461",
+    "ThreadId": "59504",
+    "Html": "<p>I love this as an alternative to PaperCut (<a href=\"http://invalidlogic.com/papercut/\">http://invalidlogic.com/papercut/</a>) and hope that it's more actively developed. I was just wondering whether it would be possible to add a TEXT (alternative part) view to the program as this is really hard to get to with Outlook and the other default viewers (without viewing the source that is).</p>\r\n<p>Keep up the good work.</p>\r\n<p>Thanks</p>\r\n<p>Tim</p>",
+    "PostedDate": "2009-06-15T00:32:13.843-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "201646",
+    "ThreadId": "59504",
+    "Html": "<p>Hi Tim</p>\r\n<p>I have checked in a &quot;View source&quot; option to SVN which will open the source of the entire message in whatever application is associated with &quot;.txt&quot; files. Whilst this isn't quite what you mentioned (viewing only one of the MIME parts), hopefully this should be enough for you?</p>\r\n<p>I will provide a new release shortly.</p>\r\n<p>Thanks</p>\r\n<p>Rob</p>",
+    "PostedDate": "2009-06-15T09:35:59.31-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "201650",
+    "ThreadId": "59504",
+    "Html": "<p>Thanks Rob, if I get time I'll have a poke around the source and add it if you like :)</p>\r\n<p>Tim</p>",
+    "PostedDate": "2009-06-15T09:45:11.333-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "202034",
+    "ThreadId": "59504",
+    "Html": "<p>This is in release 1.0.1 which is now available for download</p>",
+    "PostedDate": "2009-06-16T07:31:31.773-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "207483",
+    "ThreadId": "59504",
+    "Html": "<p>Hi Rob,</p>\r\n<p>Just a quick one to thank you for putting the button in there however it's not &quot;quite&quot; right, see the standard plain text email that I used for testing:</p>\r\n<p>-----------------------</p>\r\n<p>Received: from jupiter (jupiter [127.0.0.1])<br>&nbsp;&nbsp;&nbsp;&nbsp; by localhost (Eric Daugherty's C# Email Server)<br>&nbsp;&nbsp;&nbsp;&nbsp; 01/07/2009 12:38:11<br>MIME-Version: 1.0<br>From: &quot;Test&quot; &lt;<a href=\"mailto:test@test.com\">test@test.com</a>&gt;<br>To: <a href=\"mailto:test@test.com\">test@test.com</a><br>Date: 1 Jul 2009 12:38:11 +0100<br>Subject: Changes to backorder for account #1<br>Content-Type: text/plain; charset=us-ascii<br>Content-Transfer-Encoding: quoted-printable</p>\r\n<p>Tim Gaunt from TestAccount (1) has changed the =0D=0Adetails of=<br>&nbsp;one or more items on backorder.=0D=0A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =0D=0ADetails of the changes=<br>&nbsp;are below:=0D=0AOrder Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Line Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Previous Qty&nbsp;&nbsp;&nbsp; =<br>&nbsp;&nbsp; New Qty381862&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 336=<br>&nbsp;(+326)=0D=0A=0D=0A=0D=0ARegards,=0D=0A=0D=0AThe Robot</p>\r\n<p>-----------------------</p>\r\n<p>That should read:</p>\r\n<p>-----------------------</p>\r\n<p>Tim Gaunt from TestAccount (1) has changed the <br>details of one or more items on backorder.<br><br>Details of the changes&nbsp;are below:<br>Order Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Line Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Previous Qty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;New Qty<br>381862&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 336 (+326)</p>\r\n<p>Regards,</p>\r\n<p>The Robot</p>\r\n<p>-----------------------</p>\r\n<p>Tim</p>",
+    "PostedDate": "2009-07-01T04:47:24.483-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "208300",
+    "ThreadId": "59504",
+    "Html": "<p>Hi Tim</p>\r\n<p>Thanks for your feedback.</p>\r\n<p>The strange =0D characters you can see are down to the &quot;quoted-printable&quot; encoding your message is using. As you are viewing the source of the message this is correct that you should see these. I am planning to offer a &quot;message inspector&quot; view to the next release which will be able to display each (MIME) part of the message and display it as you would expect with the encoding decoded.</p>\r\n<p>Thanks<br>Rob</p>",
+    "PostedDate": "2009-07-03T05:09:49.71-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "217949",
+    "ThreadId": "59504",
+    "Html": "<p>Hi Rob,</p>\r\n<p>Just read your forum post about what you've got planned for v2 -looks fab, look forward to it!</p>\r\n<p>Tim</p>",
+    "PostedDate": "2009-07-31T03:54:19.237-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

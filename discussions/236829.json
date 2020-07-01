@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "529939",
+    "ThreadId": "236829",
+    "Html": "\r\n<p>HI!</p>\r\n<p>&nbsp;</p>\r\n<p>Can I start smtp4 from with a unit test and get the recieved mails.</p>\r\n<p>I would love som example code for that. This would allow you to for example when using watin form ui-testing assert that a mail was sent etc.</p>\r\n<p>&nbsp;</p>\r\n<p>Regards</p>\r\n",
+    "PostedDate": "2010-12-02T01:38:43.22-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "531967",
+    "ThreadId": "236829",
+    "Html": "\r\n<div style=\"color:black; background-color:white\">Hi thanks for your question. Yes, it's easy to use smtp4dev's smtp engine to perform automated tests. Here's an example:</div>\r\n<div style=\"color:black; background-color:white\">\r\n<pre>List&lt;Message&gt; messages = <span style=\"color:blue\">new</span> List&lt;Message&gt;();\r\n\r\nDefaultServer server = <span style=\"color:blue\">new</span> DefaultServer(Ports.AssignAutomatically);\r\nserver.MessageReceived &#43;= (s, ea) =&gt; messages.Add(ea.Message);\r\nserver.Start();\r\n\r\n<span style=\"color:green\">//do something to send mail here</span>\r\n<span style=\"color:green\">//you can get the port number to use from server.PortNumber</span>\r\n            \r\nserver.Stop();\r\nAssert.Equals(1, messages.Count);\r\n</pre>\r\n</div>\r\n<div style=\"color:black; background-color:white\">&nbsp;</div>\r\n<div style=\"color:black; background-color:white\">\r\n<div style=\"color:black; background-color:white\">You'll need to add a reference to the Rnwood.SmtpServer assembly and add a using for the Rnwood.SmtpServer namespace to get this to compile.</div>\r\n</div>\r\n<div style=\"color:black; background-color:white\">You can replace Ports.AssignAutomatically&nbsp;with a literal port number if you always&nbsp;want it to run on the same port number or use one of the other overloads (and provide a&nbsp;certificate)&nbsp;if you\r\n want to use SSL.</div>\r\n<div style=\"color:black; background-color:white\">If you want to examine the message in more detail than the properties of the Message class can provide then you'll need to feed the &quot;Data&quot; from the message into sharpmimetools (included with smtp4dev). You can\r\n see how smtp4dev does this here:</div>\r\n<div style=\"color:black; background-color:white\"><a href=\"http://smtp4dev.codeplex.com/SourceControl/changeset/view/45070#878815\">http://smtp4dev.codeplex.com/SourceControl/changeset/view/45070#878815</a></div>\r\n<div style=\"color:black; background-color:white\">Thanks</div>\r\n<div style=\"color:black; background-color:white\">Rob</div>\r\n",
+    "PostedDate": "2010-12-06T13:24:23.957-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

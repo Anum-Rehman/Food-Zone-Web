@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "606115",
+    "ThreadId": "256061",
+    "Html": "\r\n<p>I'm running win7 x64 with smtp4dev built using vs2k10. It seems to continue running even though the UI portion has unloaded. I haven't rooted around to see what is really going on yet.</p>\r\n",
+    "PostedDate": "2011-05-02T14:09:37.367-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "633701",
+    "ThreadId": "256061",
+    "Html": "<p>I've seen this issue also. &nbsp;I have a fix for it, but it's pretty extensive. &nbsp;I'm still finishing off some clean up code before sending it over to the original developer of this project.</p>",
+    "PostedDate": "2011-06-27T12:07:38.333-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

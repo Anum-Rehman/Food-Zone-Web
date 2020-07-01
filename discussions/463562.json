@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1112073",
+    "ThreadId": "463562",
+    "Html": "I was just curious.  Is there a need or desire to have the project updated to Visual Studio 2010 and .NET 4.0?<br />\n\r<br />\nI have been playing with the project and in it's current configuration, I am not seeing messages but I do get a log file.  I think it is because the program I am using to use it is using threading.  It is my understanding that .NET 4.0 had some changes that helped with threading so it made me wonder if the project purposefully was not updated.<br />\n",
+    "PostedDate": "2013-10-25T06:08:48.603-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

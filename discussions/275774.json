@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "683776",
+    "ThreadId": "275774",
+    "Html": "<p>Hi,</p>\n<p>When sending an email through smtp4dev via localhost, the message is not sent to the email address but to the local folder C:\\Users\\Gebruiker\\AppData\\Local\\Temp.</p>\n<p>What settings do I change to have the message sent to an email address?</p>\n<p>My OS is windows 7 with IIS 7.5</p>\n<p>Thanks</p>",
+    "PostedDate": "2011-10-13T08:50:14.027-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

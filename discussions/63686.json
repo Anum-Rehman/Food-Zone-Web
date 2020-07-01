@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "216553",
+    "ThreadId": "63686",
+    "Html": "<p>I love this application, I would just like to see the ability for it to run as a windows service and spool the emails to a directory with maybe some cleanup aka keep the last 500 emails.</p>\r\n<p>&nbsp;</p>\r\n<p>Thank you for putting this together</p>",
+    "PostedDate": "2009-07-27T14:46:21.833-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "273443",
+    "ThreadId": "63686",
+    "Html": "<p>Voting for exactly the same feature(s) :)</p>",
+    "PostedDate": "2010-01-05T11:54:25.167-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "450025",
+    "ThreadId": "63686",
+    "Html": "<p>We have a need for running this as a service as well.&nbsp; Perhaps we could tag team this?&nbsp; It looks like you've done an excellent job of separating the server components from the UI so this shouldn't be difficult.</p>",
+    "PostedDate": "2010-06-01T06:03:13.983-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "458042",
+    "ThreadId": "63686",
+    "Html": "count another vote for this. By the way, isn't somewhere a temp folder where the program dumps the mails?",
+    "PostedDate": "2010-06-21T07:09:06.303-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "521745",
+    "ThreadId": "63686",
+    "Html": "\r\n<p>I also want to use this very usefull tool as a service. As it can run all the time on a test application server without being logged on all the time.</p>\r\n<p>Is this feature planned to be implemented in the (near) future?</p>\r\n<p>&nbsp;</p>\r\n",
+    "PostedDate": "2010-11-14T08:11:21.637-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "525247",
+    "ThreadId": "63686",
+    "Html": "\r\n<p>Thanks for this application, it is the best of several alternatives I have tried.&nbsp; Like the other posters in this thread, I would love the ability to run as a service!</p>\r\n",
+    "PostedDate": "2010-11-22T04:47:05.05-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "625843",
+    "ThreadId": "63686",
+    "Html": "<p>SMTP4DEV is a great application that makes my life as a Software Developer much easier.&nbsp; I would also like to have the abililty to run this application as a Windows service so that I can have it running 24/7 on our development and test server environments</p>",
+    "PostedDate": "2011-06-10T02:28:06.033-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "675466",
+    "ThreadId": "63686",
+    "Html": "<p>Another request for this...&nbsp;</p>",
+    "PostedDate": "2011-09-22T12:15:22.733-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "713030",
+    "ThreadId": "63686",
+    "Html": "<p>for this, would a change be required in smtp4dev ?</p>\n<p>I think not.</p>\n<p>On windows, I think srvany.exe can be used.</p>\n<p>(srvany.exe ...&nbsp;to configure any executable as a windows service, comes with the Microsoft Resource Kit tools)</p>\n<p>&nbsp;</p>",
+    "PostedDate": "2011-12-15T19:10:26.357-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1416701",
+    "ThreadId": "63686",
+    "Html": "Just for anyone who's looking for this. This guy's done it for you <a href=\"http://www.matdesmarais.com/2014/09/smtp4dev-as-a-windows-service/\" rel=\"nofollow\">http://www.matdesmarais.com/2014/09/smtp4dev-as-a-windows-service/</a><br />\n",
+    "PostedDate": "2015-04-22T02:49:45.537-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

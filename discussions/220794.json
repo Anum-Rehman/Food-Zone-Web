@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "471183",
+    "ThreadId": "220794",
+    "Html": "Hello, everybody. Here in my office, we use Lotus Notes as the mailing tool. The email program is configured at Internet Options to be Lotus Notes, but smtp4dev always opens the messages in Outlook  Express... Does anyone knows how to change that? Thanks for doing such a very nice program!",
+    "PostedDate": "2010-07-22T12:29:43.333-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "491973",
+    "ThreadId": "220794",
+    "Html": "<p>Hi</p>\r\n<p>When you choose to view a message smtp4dev simply launches whatever application is associated with .eml files.</p>\r\n<p>This link appears to describe how to&nbsp;associate Notes&nbsp;with&nbsp;these files&nbsp;(but can't check since I don't have Notes installed):<br><a href=\"http://publib.boulder.ibm.com/infocenter/lqkrdom/v8/index.jsp?topic=/com.ibm.lotus.quickr.connectorsv82.doc/config/enablingtheemlviewerinnotesasthedefaultemlvieweronasystem.html\">http://publib.boulder.ibm.com/infocenter/lqkrdom/v8/index.jsp?topic=/com.ibm.lotus.quickr.connectorsv82.doc/config/enablingtheemlviewerinnotesasthedefaultemlvieweronasystem.html</a></p>\r\n<p>Let me know if this works or not.</p>\r\n<p>Thanks<br>Rob</p>",
+    "PostedDate": "2010-09-10T13:40:40.813-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

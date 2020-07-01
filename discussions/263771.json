@@ -1,0 +1,34 @@
+[
+  {
+    "Id": "636798",
+    "ThreadId": "263771",
+    "Html": "\r\n<p>I am working on a java server pages appllication that send email.&nbsp; The production server is a Linux box, but my development environment is Windows 7 (x64).&nbsp; I needed to be able to test the email functionality so I installed smtp4dev.&nbsp; The\r\n application sends email to localhost.</p>\r\n<p>When I send mail from the application (via Apache Tomcat running on my development machine), the application responds very slowly when I submit the page to send the mail.&nbsp; The smtp4dev log shows the resulting messages, but the application generates\r\n the following error stack trace:</p>\r\n<p>WARNING: Throwable caught: Exception reading response<br>\r\n<br>\r\njavax.mail.MessagingException: Exception reading response;<br>\r\n&nbsp; nested exception is:<br>\r\n&nbsp;&nbsp;&nbsp; java.net.SocketException: Connection reset</p>\r\n<p>.....</p>\r\n<p>Sounds as if smtp4dev is closing the connection on port 25 prematurely.&nbsp; The smtp4dev log shows:</p>\r\n<p>220 localhost smtp4dev ready<br>\r\nEHLO Steve<br>\r\n250-Nice to meet you.<br>\r\n250-8BITMIME<br>\r\n250-STARTTLS<br>\r\n250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS<br>\r\n250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS<br>\r\n250 SIZE<br>\r\nMAIL FROM:&lt;server@YourSportsLeague.com&gt;<br>\r\n250 Okey dokey<br>\r\nRCPT TO:&lt;steve@votingsolutions.com&gt;<br>\r\n250 Recipient accepted<br>\r\nRCPT TO:&lt;steve@upte-cwa.org&gt;<br>\r\n250 Recipient accepted<br>\r\nRCPT TO:&lt;steve@nobelprize4pete.org&gt;<br>\r\n250 Recipient accepted<br>\r\nRCPT TO:&lt;steve@yoursportsleague.com&gt;<br>\r\n250 Recipient accepted<br>\r\nRSET</p>\r\n<p>&nbsp;</p>\r\n<p>Any thoughts?&nbsp; This is unusable for testing this application.</p>\r\n",
+    "PostedDate": "2011-07-03T22:23:36.74-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645356",
+    "ThreadId": "263771",
+    "Html": "<p><a href=\"http://smtp4dev.codeplex.com/workitem/6080\">http://smtp4dev.codeplex.com/workitem/6080</a></p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2011-07-20T23:00:17.787-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645368",
+    "ThreadId": "263771",
+    "Html": "Is this your way of telling me that this is an unresolved issue? There is no solution to my problem in this thread. Or do you want me to post my message to this thread...<br>\r\n<br>\r\n<div><b>Steve Willett </b><br>\r\n510 654-7818</div>\r\n<br>\r\nOn 7/20/2011 11:00 PM, rnwood wrote:\r\n<blockquote type=\"cite\">\r\n<p>From: rnwood</p>\r\n<div id=\"ThreadNotificationPostBody\">\r\n<p><a href=\"http://smtp4dev.codeplex.com/workitem/6080\">http://smtp4dev.codeplex.com/workitem/6080</a></p>\r\n<p></p>\r\n</div>\r\n</blockquote>\r\n",
+    "PostedDate": "2011-07-20T23:31:48.19-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645461",
+    "ThreadId": "263771",
+    "Html": "<p>Hi Steve</p>\r\n<p>Sorry for the blunt message earlier. I just wanted to let you and others know that this is a known issue and that further details can be found in the linked work item. I'll post an update shortly in that work item regarding a fix.</p>\r\n<p>Rob</p>",
+    "PostedDate": "2011-07-21T04:02:33.843-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

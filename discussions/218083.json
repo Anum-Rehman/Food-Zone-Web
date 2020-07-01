@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "462416",
+    "ThreadId": "218083",
+    "Html": "When I send a message with phplist (http://www.phplist.com) the program crashes.\r\n\r\nUnder Windows 7 64bits, using Apache 2.2 and PHP 5.2.13.\r\n\r\nPd. Works fine with the mail() function.",
+    "PostedDate": "2010-07-01T16:46:07.967-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "491977",
+    "ThreadId": "218083",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/workitem/5577\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2010-09-10T13:44:18.443-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

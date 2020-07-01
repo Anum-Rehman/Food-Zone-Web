@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "576455",
+    "ThreadId": "248663",
+    "Html": "\r\n<p>All in a sudden smtp4dev crashes all the time. Where is the stack trace written?? I can't find it.</p>\r\n",
+    "PostedDate": "2011-03-06T20:33:14.93-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "645355",
+    "ThreadId": "248663",
+    "Html": "<p>You are right, the error reporing is a bit sub-par and definately something for improvement in the next version.</p>\r\n<p>If you are tracking down an issue, the only way currently to get the full&nbsp;info is to attach a debugger before the problem occurs.</p>",
+    "PostedDate": "2011-07-20T22:58:57.997-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

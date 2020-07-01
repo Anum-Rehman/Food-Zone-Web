@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1028778",
+    "ThreadId": "439877",
+    "Html": "Had been using SMTP4DEV successfully to test a 3rd party java application that sends email notifications on Windows XP.  However, I installed the latest version of the 3rd party application, and now SMTP4DEV crashes immediately when the java app sends an email.  The only error in the java app's log is:<br />\nERROR,Can't send command to SMTP host (java.net.SocketException: Connection reset)\r<br />\n<br />\nI'm so dismayed, SMTP4DEV was working so well and I wanted to recommend it to all the developers.<br />\n",
+    "PostedDate": "2013-04-10T19:16:02.613-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1028787",
+    "ThreadId": "439877",
+    "Html": "Found the root cause.  In the old version of the java app, I had configured the mail settings with STARTTLS.  In the new version with default mail settings, there is no STARTTLS.  This crashes the default installation of smtp4dev, but fixed it by unchecking STARTTLS in the smtp4dev options.  This is a bug I hope gets fixed, but not a show stopper since there is a workaround.<br />\n",
+    "PostedDate": "2013-04-10T19:39:56.35-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

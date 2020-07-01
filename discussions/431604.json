@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "994937",
+    "ThreadId": "431604",
+    "Html": "This looks like exactly what I need but I'm unable to install it.\r<br />\n<br />\nOn Windows XP pro sp3 when I run the distribution I get an &quot;Application Error&quot;\r<br />\n&quot;The application failed to initialise properly (0xc0000135). Click OK to terminate the application.&quot;\r<br />\n<br />\nSearching the net it seems I don't have .net framework installed (odd I thought it's standard in XP) but which version do I need and where do I download it from please.\r<br />\n<br />\nThanks in advance for any help<br />\n",
+    "PostedDate": "2013-01-31T14:36:58.527-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "995131",
+    "ThreadId": "431604",
+    "Html": "Loaded .net 4, which should work for lower versions also, now I get the error &quot;Unable to find a version of the runtime to run this application&quot; which apparently means I don't have the correct version of .net but .net 4 is the highest version that can be run on XP.\r<br />\n<br />\nWill smtp4Dev no longer run on XP? If not is there an earlier version that will?\r<br />\n<br />\nOnce again thanks in advance for any help<br />\n",
+    "PostedDate": "2013-02-01T04:40:09.37-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

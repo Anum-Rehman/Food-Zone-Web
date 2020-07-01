@@ -1,0 +1,58 @@
+[
+  {
+    "Id": "441259",
+    "ThreadId": "212206",
+    "Html": "Hello,\r\n\r\nI'm currently using your project as the base for another project I'm working on.  At the moment, the most immediate fix I had to implement was the Network Password for our Certificate.   I added a Setting SSLCertificatePassword, and the following in place of line# 104 in ServerBehavior.cs\r\n            if (!String.IsNullOrEmpty(Settings.Default.SSLCertificatePassword))\r\n                return new X509Certificate(Settings.Default.SSLCertificatePath, Settings.Default.SSLCertificatePassword);\r\n            else\r\n                return new X509Certificate(Settings.Default.SSLCertificatePath);\r\n\r\nGreat job on this project man.  I'll let you know if there's anything interesting I add to the project that may benefit others, and hopefully it'll be incorporated for anyone that needs to accomplish the same goals as me.",
+    "PostedDate": "2010-05-10T17:10:03.427-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "441398",
+    "ThreadId": "212206",
+    "Html": "<p>Hi KraGiE</p>\r\n<p>Thanks for your suggestion. I will add this feature to the next release.</p>\r\n<p>Rob</p>",
+    "PostedDate": "2010-05-11T03:31:32.03-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "441400",
+    "ThreadId": "212206",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=4622\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2010-05-11T03:35:35.613-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "441690",
+    "ThreadId": "212206",
+    "Html": "no problem.  I also came across something that may improve the user experience for people that use the application out of the box.\r\n\r\nOne of the key pro's of this application is that it handles the STARTTLS header in a tidy and efficient manner.  Another key benefit is that it won't restrict the connections to be Strictly TLS or Clear Text.  It allows for the client to determine if TLS will be used or not (which is the correct way the SMTP listener should be).    Where I'm going with this is that the UI screen doesn't show if the session was done via TLS, SSL, or Default.   By adding additional columns in the session data grid, it might provide a more thorough view.  \r\n\r\nSimple feature:\r\nAdded a property in SessionViewModel.cs, and added a new databound column for the session datagrid to that new property as a Readonly Checkbox.  \r\npublic bool SecureConnection {  get { return Session.SecureConnection; } }",
+    "PostedDate": "2010-05-11T13:22:29.5-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "441698",
+    "ThreadId": "212206",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=4627\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2010-05-11T13:47:12.063-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "441699",
+    "ThreadId": "212206",
+    "Html": "<p>Hi KraGiE</p>\r\n<p>Another great suggestion. Both have now been implemented.</p>\r\n<p>Rob</p>",
+    "PostedDate": "2010-05-11T13:56:46.22-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "444723",
+    "ThreadId": "212206",
+    "Html": "<p>I've made some modifications to your tcpClient/Listener/socket implementation. &nbsp;I'll post the specific changes once I'm sure they're fully stable and scalable. &nbsp;One change I did make that made huge gains on the overall memory footprint was to adjust the Data property in Message. &nbsp;It was byte[] Data { get; set; }. &nbsp;Instead, I made a new property MemoryStream DataStream, and in the DataVerb.cs, instead of newing up a MemoryStream to copy to, I use the DataStream property of the message. &nbsp;I altered the Data property to be byte[] Data { get { DataStream.ToArray(); } }. &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>I also noticed that in the Start() of Connection, it could result in an infinite loop. &nbsp;It's ideal to break out when the command !IsValid &amp;&amp; IsEmpty. &nbsp;In terms of process flow, it doesn't appear to cause any problems in the smtp call, but when I sent in 1000+ emails, my cores were running pretty hot.</p>\r\n<pre><span>else</span> <span>if</span> (command.IsEmpty)\r\n                    {\r\n                    }</pre>",
+    "PostedDate": "2010-05-19T00:09:22.073-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

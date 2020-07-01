@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "437080",
+    "ThreadId": "211010",
+    "Html": "<p>I am not receiving emails</p>\r\n<p>The log says this</p>\r\n<p>220 localhost smtp4dev ready<br>EHLO Studio-17<br>250-Nice to meet you.<br>250-8BITMIME<br>250-STARTTLS<br>250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS<br>250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS<br>250 SIZE<br>MAIL FROM:&lt;xxxxxxxxx&gt;<br>250 Okey dokey<br>RCPT TO:&lt;xxxxxxxx&gt;<br>250 Recipient accepted<br>RSET</p>\r\n<p>xxxxxxx are blanked out good emails</p>\r\n<p>Is this log <em>indicating that the email was sent successfully?</em></p>",
+    "PostedDate": "2010-04-29T06:53:16.057-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "440023",
+    "ThreadId": "211010",
+    "Html": "<p>See <a href=\"http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=4160\">http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=4160</a></p>",
+    "PostedDate": "2010-05-06T12:02:59.603-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "454126",
+    "ThreadId": "215643",
+    "Html": "Hi,<br>\r\n<br>\r\nsmtp4dev prevents me from shutting down Windows XP if it's still running.  If I exit smtp4dev, then I can shut down.<br>\r\n<br>\r\nOtherwise, it's an amazingly useful app.<br>\r\n<br>\r\nThanks,<br>\r\nEric P.<br>\r\n<br>",
+    "PostedDate": "2010-06-10T11:18:26.267-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "491979",
+    "ThreadId": "215643",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/workitem/5578\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2010-09-10T13:44:51.26-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

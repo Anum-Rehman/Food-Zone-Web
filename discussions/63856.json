@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "217142",
+    "ThreadId": "63856",
+    "Html": "<p>I like this tool. However I would like to choose default action for close button or at least ask me if I am sure to close window. In my opinion it is nice feature, because I always press close although i just want to&nbsp; minimize/hide window.</p>",
+    "PostedDate": "2009-07-29T05:16:50.717-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "218903",
+    "ThreadId": "63856",
+    "Html": "<p>Thanks for your feedback. I agree!</p>\r\n<p>I will put this into the next release.</p>",
+    "PostedDate": "2009-08-03T11:48:52.87-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "218905",
+    "ThreadId": "63856",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=2348\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2009-08-03T11:50:07.907-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

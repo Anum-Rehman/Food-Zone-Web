@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "267591",
+    "ThreadId": "78216",
+    "Html": "<p>I'm just trying to send email with smtp4dev. Smtp4dev is up and running using all the default options. I granted it full rights through the Windows Firewall (Windows 7). Using this code:</p>\r\n<p>&nbsp;</p>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp;class Program {</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;static void Main(string[] args) {</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SmtpClient client = new SmtpClient(&quot;localhost&quot;, 25);</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;client.Send(&quot;dummymail@localhost&quot;, &quot;scott@localhost&quot;, &quot;dummy test&quot;, &quot;body test&quot;);</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Console.WriteLine(&quot;done&quot;);</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Console.ReadLine();</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;}</div>\r\n<div id=\"_mcePaste\" style=\"left:-10000px;top:0px;width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\">&nbsp;&nbsp; &nbsp;}</div>\r\n<p>\r\n<p>&nbsp;&nbsp; &nbsp;class Program {<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;static void Main(string[] args) {<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SmtpClient client = new SmtpClient(&quot;localhost&quot;, 25);<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;client.Send(&quot;dummymail@localhost&quot;, &quot;scott@localhost&quot;, &quot;dummy test&quot;, &quot;body test&quot;);<br>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;}<br>&nbsp;&nbsp; &nbsp;}</p>\r\n</p>\r\n<p>&nbsp;</p>\r\n<p>It throws an SmtpException: &quot;Smtp server returned an invalid response.&quot; The status code is GeneralFailure. Am I missing something basic here?</p>\r\n<p>&nbsp;</p>",
+    "PostedDate": "2009-12-15T07:49:55.75-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "267750",
+    "ThreadId": "78216",
+    "Html": "This discussion has been copied to a work item. Click <a href=\"http://smtp4dev.codeplex.com/WorkItem/View.aspx?WorkItemId=3576\">here</a> to go to the work item and continue the discussion.",
+    "PostedDate": "2009-12-15T14:09:38.107-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "Id": "1490906",
+    "ThreadId": "660603",
+    "Html": "I have been running 2.09 on Windows 10 without problems.  My colleague downloaded and installed it on her W7 machine using the same instructions that I had just followed and started it running, with exactly the same option settings as myself.  When she sent test SMTP emails, she got a message &quot;smtp4dev has stopped working&quot; and a message from Visual Studio Just-In-Time debugger &quot;An unhandled reception (&quot;System.ArguentNullException&quot;) occured in Smtp4dev.exe [10696]&quot;.<br />\n",
+    "PostedDate": "2017-01-10T06:23:55.353-08:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]

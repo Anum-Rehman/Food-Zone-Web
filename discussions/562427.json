@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "1294481",
+    "ThreadId": "562427",
+    "Html": "In telnet \r<br />\nMicrosoft Telnet&gt; o localhost 25\r<br />\nConnecting To localhost...\r<br />\n<br />\n220 localhost smtp4dev ready\r<br />\nehlo nasdaq.com250-Nice to meet you.\r<br />\n250-8BITMIME\r<br />\n250-STARTTLS\r<br />\n250-AUTH=CRAM-MD5 PLAIN LOGIN ANONYMOUS\r<br />\n250-AUTH CRAM-MD5 PLAIN LOGIN ANONYMOUS\r<br />\n250 SIZE\r<br />\nMAIL FROM: <a href=\"mailto:server@nasdaq.com250\r\nOkey\" rel=\"nofollow\">server@nasdaq.com250\r\nOkey</a> dokey\r<br />\nRCPT TO: <a href=\"mailto:client@nasdaq.com\" rel=\"nofollow\">client@nasdaq.com</a> NOTIFY=success,failure\r<br />\n501 Must specify to address &lt;address&gt;\r<br />\n<br />\nEven if I put angle brackets around the client email address it still gives me the same error message.\r<br />\n<br />\nHow can I test using telnet.<br />\n",
+    "PostedDate": "2014-08-28T13:54:21.837-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  },
+  {
+    "Id": "1308709",
+    "ThreadId": "562427",
+    "Html": "I hit this issue as well and found that Rob replied to a <a href=\"http://stackoverflow.com/questions/7227179/smtp-server-response-501-must-specify-to-address-ltaddressgt\" rel=\"nofollow\">related post on stackoverflow,</a> there is a quick fix at the end of the post:\r<br />\n<br />\nDoesn't work:<br />\n<pre><code>helo me\nmail from: me@here.com\nrcpt to: somebody@mydomain.tld</code></pre>\n\nWorks:<br />\n<pre><code>helo me\nmail from: me@here.com\nrcpt to: &lt;somebody@mydomain.tld&gt;\n</code></pre>\n\n",
+    "PostedDate": "2014-09-28T05:15:30.583-07:00",
+    "UserRole": null,
+    "MarkedAsAnswerDate": null
+  }
+]
